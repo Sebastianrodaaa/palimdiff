@@ -1,0 +1,335 @@
+{
+  "timestamp_utc": "2026-10-29T20:13:36.686085+00:00",
+  "denoiser": "tiny",
+  "note": "CPU TinyStandIn runs \u2014 not GPU benchmark numbers. mock_eval=true.",
+  "seed": 42,
+  "rho": 0.25,
+  "retention_probe": [
+    {
+      "strategy": "evidence_delta",
+      "record_id": "retention_0",
+      "denoised_tokens_total": 133,
+      "remasked_tokens_total": 133,
+      "n_chunks": 7,
+      "answer": "MOCK_ANSWER seed=42 q='What is the secret code?' mem_len=329",
+      "mock_eval": true
+    },
+    {
+      "strategy": "full_overwrite",
+      "record_id": "retention_0",
+      "denoised_tokens_total": 448,
+      "remasked_tokens_total": 448,
+      "n_chunks": 7,
+      "answer": "MOCK_ANSWER full_overwrite mem_len=319",
+      "mock_eval": true
+    },
+    {
+      "strategy": "ar_overwrite",
+      "record_id": "retention_0",
+      "denoised_tokens_total": 448,
+      "remasked_tokens_total": 448,
+      "n_chunks": 7,
+      "answer": "MOCK_ANSWER ar_overwrite mem_len=259",
+      "mock_eval": true
+    },
+    {
+      "strategy": "append_truncate",
+      "record_id": "retention_0",
+      "denoised_tokens_total": 0,
+      "remasked_tokens_total": 0,
+      "n_chunks": 7,
+      "answer": "MOCK_ANSWER append_truncate mem_len=420",
+      "mock_eval": true
+    },
+    {
+      "strategy": "confidence",
+      "record_id": "retention_0",
+      "denoised_tokens_total": 133,
+      "remasked_tokens_total": 133,
+      "n_chunks": 7,
+      "answer": "MOCK_ANSWER confidence mem_len=303",
+      "mock_eval": true
+    },
+    {
+      "strategy": "random",
+      "record_id": "retention_0",
+      "denoised_tokens_total": 133,
+      "remasked_tokens_total": 133,
+      "n_chunks": 7,
+      "answer": "MOCK_ANSWER random mem_len=313",
+      "mock_eval": true
+    },
+    {
+      "strategy": "evidence_delta",
+      "record_id": "retention_1",
+      "denoised_tokens_total": 133,
+      "remasked_tokens_total": 133,
+      "n_chunks": 7,
+      "answer": "MOCK_ANSWER seed=42 q='What is the secret code?' mem_len=340",
+      "mock_eval": true
+    },
+    {
+      "strategy": "full_overwrite",
+      "record_id": "retention_1",
+      "denoised_tokens_total": 448,
+      "remasked_tokens_total": 448,
+      "n_chunks": 7,
+      "answer": "MOCK_ANSWER full_overwrite mem_len=319",
+      "mock_eval": true
+    },
+    {
+      "strategy": "ar_overwrite",
+      "record_id": "retention_1",
+      "denoised_tokens_total": 448,
+      "remasked_tokens_total": 448,
+      "n_chunks": 7,
+      "answer": "MOCK_ANSWER ar_overwrite mem_len=259",
+      "mock_eval": true
+    },
+    {
+      "strategy": "append_truncate",
+      "record_id": "retention_1",
+      "denoised_tokens_total": 0,
+      "remasked_tokens_total": 0,
+      "n_chunks": 7,
+      "answer": "MOCK_ANSWER append_truncate mem_len=419",
+      "mock_eval": true
+    },
+    {
+      "strategy": "confidence",
+      "record_id": "retention_1",
+      "denoised_tokens_total": 133,
+      "remasked_tokens_total": 133,
+      "n_chunks": 7,
+      "answer": "MOCK_ANSWER confidence mem_len=297",
+      "mock_eval": true
+    },
+    {
+      "strategy": "random",
+      "record_id": "retention_1",
+      "denoised_tokens_total": 133,
+      "remasked_tokens_total": 133,
+      "n_chunks": 7,
+      "answer": "MOCK_ANSWER random mem_len=320",
+      "mock_eval": true
+    },
+    {
+      "strategy": "evidence_delta",
+      "record_id": "retention_2",
+      "denoised_tokens_total": 133,
+      "remasked_tokens_total": 133,
+      "n_chunks": 7,
+      "answer": "MOCK_ANSWER seed=42 q='What is the secret code?' mem_len=351",
+      "mock_eval": true
+    },
+    {
+      "strategy": "full_overwrite",
+      "record_id": "retention_2",
+      "denoised_tokens_total": 448,
+      "remasked_tokens_total": 448,
+      "n_chunks": 7,
+      "answer": "MOCK_ANSWER full_overwrite mem_len=319",
+      "mock_eval": true
+    },
+    {
+      "strategy": "ar_overwrite",
+      "record_id": "retention_2",
+      "denoised_tokens_total": 448,
+      "remasked_tokens_total": 448,
+      "n_chunks": 7,
+      "answer": "MOCK_ANSWER ar_overwrite mem_len=259",
+      "mock_eval": true
+    },
+    {
+      "strategy": "append_truncate",
+      "record_id": "retention_2",
+      "denoised_tokens_total": 0,
+      "remasked_tokens_total": 0,
+      "n_chunks": 7,
+      "answer": "MOCK_ANSWER append_truncate mem_len=419",
+      "mock_eval": true
+    },
+    {
+      "strategy": "confidence",
+      "record_id": "retention_2",
+      "denoised_tokens_total": 133,
+      "remasked_tokens_total": 133,
+      "n_chunks": 7,
+      "answer": "MOCK_ANSWER confidence mem_len=288",
+      "mock_eval": true
+    },
+    {
+      "strategy": "random",
+      "record_id": "retention_2",
+      "denoised_tokens_total": 133,
+      "remasked_tokens_total": 133,
+      "n_chunks": 7,
+      "answer": "MOCK_ANSWER random mem_len=311",
+      "mock_eval": true
+    }
+  ],
+  "ruler_hqa_mock": [
+    {
+      "strategy": "evidence_delta",
+      "record_id": "mock_ruler_0",
+      "denoised_tokens_total": 190,
+      "remasked_tokens_total": 190,
+      "n_chunks": 10,
+      "answer": "MOCK_ANSWER seed=42 q='What connects entity_A_0 and ent' mem_len=369",
+      "mock_eval": true
+    },
+    {
+      "strategy": "full_overwrite",
+      "record_id": "mock_ruler_0",
+      "denoised_tokens_total": 640,
+      "remasked_tokens_total": 640,
+      "n_chunks": 10,
+      "answer": "MOCK_ANSWER full_overwrite mem_len=277",
+      "mock_eval": true
+    },
+    {
+      "strategy": "ar_overwrite",
+      "record_id": "mock_ruler_0",
+      "denoised_tokens_total": 640,
+      "remasked_tokens_total": 640,
+      "n_chunks": 10,
+      "answer": "MOCK_ANSWER ar_overwrite mem_len=261",
+      "mock_eval": true
+    },
+    {
+      "strategy": "append_truncate",
+      "record_id": "mock_ruler_0",
+      "denoised_tokens_total": 0,
+      "remasked_tokens_total": 0,
+      "n_chunks": 10,
+      "answer": "MOCK_ANSWER append_truncate mem_len=413",
+      "mock_eval": true
+    },
+    {
+      "strategy": "confidence",
+      "record_id": "mock_ruler_0",
+      "denoised_tokens_total": 190,
+      "remasked_tokens_total": 190,
+      "n_chunks": 10,
+      "answer": "MOCK_ANSWER confidence mem_len=288",
+      "mock_eval": true
+    },
+    {
+      "strategy": "random",
+      "record_id": "mock_ruler_0",
+      "denoised_tokens_total": 190,
+      "remasked_tokens_total": 190,
+      "n_chunks": 10,
+      "answer": "MOCK_ANSWER random mem_len=310",
+      "mock_eval": true
+    },
+    {
+      "strategy": "evidence_delta",
+      "record_id": "mock_ruler_1",
+      "denoised_tokens_total": 190,
+      "remasked_tokens_total": 190,
+      "n_chunks": 10,
+      "answer": "MOCK_ANSWER seed=42 q='What connects entity_A_1 and ent' mem_len=314",
+      "mock_eval": true
+    },
+    {
+      "strategy": "full_overwrite",
+      "record_id": "mock_ruler_1",
+      "denoised_tokens_total": 640,
+      "remasked_tokens_total": 640,
+      "n_chunks": 10,
+      "answer": "MOCK_ANSWER full_overwrite mem_len=277",
+      "mock_eval": true
+    },
+    {
+      "strategy": "ar_overwrite",
+      "record_id": "mock_ruler_1",
+      "denoised_tokens_total": 640,
+      "remasked_tokens_total": 640,
+      "n_chunks": 10,
+      "answer": "MOCK_ANSWER ar_overwrite mem_len=261",
+      "mock_eval": true
+    },
+    {
+      "strategy": "append_truncate",
+      "record_id": "mock_ruler_1",
+      "denoised_tokens_total": 0,
+      "remasked_tokens_total": 0,
+      "n_chunks": 10,
+      "answer": "MOCK_ANSWER append_truncate mem_len=414",
+      "mock_eval": true
+    },
+    {
+      "strategy": "confidence",
+      "record_id": "mock_ruler_1",
+      "denoised_tokens_total": 190,
+      "remasked_tokens_total": 190,
+      "n_chunks": 10,
+      "answer": "MOCK_ANSWER confidence mem_len=289",
+      "mock_eval": true
+    },
+    {
+      "strategy": "random",
+      "record_id": "mock_ruler_1",
+      "denoised_tokens_total": 190,
+      "remasked_tokens_total": 190,
+      "n_chunks": 10,
+      "answer": "MOCK_ANSWER random mem_len=307",
+      "mock_eval": true
+    },
+    {
+      "strategy": "evidence_delta",
+      "record_id": "mock_ruler_2",
+      "denoised_tokens_total": 190,
+      "remasked_tokens_total": 190,
+      "n_chunks": 10,
+      "answer": "MOCK_ANSWER seed=42 q='What connects entity_A_2 and ent' mem_len=363",
+      "mock_eval": true
+    },
+    {
+      "strategy": "full_overwrite",
+      "record_id": "mock_ruler_2",
+      "denoised_tokens_total": 640,
+      "remasked_tokens_total": 640,
+      "n_chunks": 10,
+      "answer": "MOCK_ANSWER full_overwrite mem_len=319",
+      "mock_eval": true
+    },
+    {
+      "strategy": "ar_overwrite",
+      "record_id": "mock_ruler_2",
+      "denoised_tokens_total": 640,
+      "remasked_tokens_total": 640,
+      "n_chunks": 10,
+      "answer": "MOCK_ANSWER ar_overwrite mem_len=261",
+      "mock_eval": true
+    },
+    {
+      "strategy": "append_truncate",
+      "record_id": "mock_ruler_2",
+      "denoised_tokens_total": 0,
+      "remasked_tokens_total": 0,
+      "n_chunks": 10,
+      "answer": "MOCK_ANSWER append_truncate mem_len=416",
+      "mock_eval": true
+    },
+    {
+      "strategy": "confidence",
+      "record_id": "mock_ruler_2",
+      "denoised_tokens_total": 190,
+      "remasked_tokens_total": 190,
+      "n_chunks": 10,
+      "answer": "MOCK_ANSWER confidence mem_len=311",
+      "mock_eval": true
+    },
+    {
+      "strategy": "random",
+      "record_id": "mock_ruler_2",
+      "denoised_tokens_total": 190,
+      "remasked_tokens_total": 190,
+      "n_chunks": 10,
+      "answer": "MOCK_ANSWER random mem_len=326",
+      "mock_eval": true
+    }
+  ]
+}
