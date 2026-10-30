@@ -1,0 +1,11 @@
+{
+  "label": "MOCK",
+  "id": "mock_0",
+  "question": "What is the secret code?",
+  "answer": "PLANT_4242",
+  "chunks": [
+    "The secret code is PLANT_4242.",
+    "Weather is sunny.",
+    "Sports scores updated."
+  ]
+}
